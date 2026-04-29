@@ -1,41 +1,188 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<style>
-.grid-container {
-  display: grid;
-  grid-template-columns: auto auto auto;
-  background-color: #2196F3;
-  padding: 10px;
-}
-.grid-item {
-  background-color: rgba(255, 255, 255, 0.8);
-  border: 1px solid rgba(0, 0, 0, 0.8);
-  padding: 20px;
-  font-size: 30px;
-  text-align: center;
-}
-</style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ankita M Bosamiya - CV</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f4f4;
+      color: #222;
+    }
+
+    .container {
+      width: 800px;
+      margin: 30px auto;
+      background: #fff;
+      padding: 35px 45px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      margin: 0;
+      font-size: 28px;
+      color: #1f3b5b;
+    }
+
+    .contact {
+      margin-top: 8px;
+      font-size: 14px;
+      color: #555;
+    }
+
+    .section {
+      margin-top: 28px;
+    }
+
+    .section h2 {
+      font-size: 16px;
+      color: #1f3b5b;
+      border-bottom: 2px solid #1f3b5b;
+      padding-bottom: 4px;
+      margin-bottom: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+    }
+
+    p {
+      font-size: 14px;
+      line-height: 1.5;
+      margin: 0;
+    }
+
+    .skills p {
+      margin-bottom: 6px;
+    }
+
+    .job {
+      margin-bottom: 18px;
+    }
+
+    .job-title {
+      font-weight: bold;
+      font-size: 15px;
+      color: #222;
+    }
+
+    .job-meta {
+      font-size: 13px;
+      color: #666;
+      margin-bottom: 6px;
+    }
+
+    ul {
+      margin: 6px 0 0 20px;
+      padding: 0;
+    }
+
+    li {
+      margin-bottom: 6px;
+      font-size: 14px;
+      line-height: 1.4;
+    }
+
+    a {
+      color: #1f3b5b;
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    @media print {
+      body {
+        background: #fff;
+      }
+
+      .container {
+        width: 100%;
+        margin: 0;
+        box-shadow: none;
+        padding: 20px 30px;
+      }
+    }
+  </style>
 </head>
 <body>
+  <div class="container">
+    <h1>Ankita M Bosamiya</h1>
+    <div class="contact">
+      India | Available for Remote Opportunities | LinkedIn: <a href="#" target="_blank">Add LinkedIn URL</a>
+    </div>
 
-<h1>Grid Elements</h1>
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p>
+        Data Engineer with 10+ years of experience in backend development, cloud support, API integration,
+        and ETL/data workflow engineering. Experienced in Python, SQL, Flask API, Docker, Git, MySQL,
+        and CRM integrations including Zoho and Marketo. Strong background in data normalization,
+        automation, and system integration, with working knowledge of AWS and AWS Lambda.
+        Seeking to transition into AI engineering by applying strong Python and data engineering
+        experience to intelligent, scalable business solutions.
+      </p>
+    </div>
 
-<p>A Grid Layout must have a parent element with the <em>display</em> property set to <em>grid</em> or <em>inline-grid</em>.</p>
+    <div class="section skills">
+      <h2>Core Skills</h2>
+      <p><strong>Programming:</strong> Python, SQL, Perl, JavaScript, HTML, CSS, jQuery</p>
+      <p><strong>Data Engineering:</strong> ETL, Data Processing, Data Normalization, API Integration, JSON Data Exchange, CRM Integration</p>
+      <p><strong>Tools & Frameworks:</strong> Flask API, Docker, Git</p>
+      <p><strong>Platforms & Databases:</strong> MySQL, AWS, AWS Lambda</p>
+      <p><strong>Business Systems:</strong> Zoho, Marketo</p>
+    </div>
 
-<p>Direct child element(s) of the grid container automatically becomes grid items.</p>
+    <div class="section">
+      <h2>Professional Experience</h2>
 
-<div class="grid-container">
-  <div class="grid-item">1</div>
-  <div class="grid-item">2</div>
-  <div class="grid-item">3</div>  
-  <div class="grid-item">4</div>
-  <div class="grid-item">5</div>
-  <div class="grid-item">6</div>  
-  <div class="grid-item">7</div>
-  <div class="grid-item">8</div>
-  <div class="grid-item">9</div>  
-</div>
+      <div class="job">
+        <div class="job-title">Data Engineer</div>
+        <div class="job-meta">QIMA | Aug 2021 – Present</div>
+        <ul>
+          <li>Develop and maintain ETL workflows for marketing data processing, normalization, and integration.</li>
+          <li>Integrate Zoho and Marketo data into internal workflows using APIs and JSON-based data exchange.</li>
+          <li>Build and support Flask-based API components for internal data operations.</li>
+          <li>Improve data quality and reduce manual effort through automation of data integration processes.</li>
+          <li>Use Python, SQL, Perl, MySQL, Docker, and Git to support business data workflows.</li>
+          <li>Prepare documentation and support ongoing data integration activities.</li>
+        </ul>
+      </div>
 
+      <div class="job">
+        <div class="job-title">Junior AWS Administrator</div>
+        <div class="job-meta">Ontomatica | 2017 – 2021</div>
+        <ul>
+          <li>Supported AWS-based environments for test data administration and software deployment.</li>
+          <li>Worked with AWS services including AWS Lambda.</li>
+          <li>Assisted in deployment of ontology-related applications.</li>
+          <li>Contributed to environment maintenance and cloud workflow support.</li>
+        </ul>
+      </div>
+
+      <div class="job">
+        <div class="job-title">Perl Web Developer</div>
+        <div class="job-meta">Blackborder / TCGPlayer | Apr 2011 – Apr 2017</div>
+        <ul>
+          <li>Developed and maintained CGI-based web applications using Perl.</li>
+          <li>Worked with MySQL, JavaScript, HTML, CSS, and jQuery to support backend and frontend functionality.</li>
+          <li>Contributed to feature delivery and system maintenance for web-based platforms.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <p><strong>Master of Computer Applications (MCA)</strong><br>
+      IGNOU, India | 2008</p>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <p>English | Hindi | Gujarati</p>
+    </div>
+  </div>
 </body>
 </html>
